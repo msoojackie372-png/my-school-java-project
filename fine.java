@@ -1,20 +1,19 @@
 /*ASSIGNMENT 2
-jacklinee murimi
+jackline murimi
 Adm no:: S10-4548-2023
 */
 import java.utili.Scanner;//input  
 public class fine{ 
     public static void bookfine(string[] args){
         Scanner booker =new Scanner(system.in);
-//outputs
+        double overdue = returndate -duedate;
+//outputs to be printed on 
         system.out.println("Enter bookID")
         double bookid = scanner.nextDouble();
         system.out.println("Enter dueDate")
         double duedate = scanner.nextDouble();
         system.out.println("Enter returnDate")
         double returndate = scanner.nextDouble();
-
-double overdue = returndate -duedate;
 
    if(overdate <= 7){
     double charge =20;
@@ -36,3 +35,4 @@ system.out.println("your fine rate is " + finerate);
 system.out.println("your fine amount is " + fineamount);
     }
 }
+
